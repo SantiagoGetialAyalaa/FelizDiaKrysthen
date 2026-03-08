@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krysthen | Nuestra Historia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        .font-cursive { font-family: 'Dancing Script', cursive; }
+        .glass { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.4); }
+        .collage-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; }
+        .timeline-line { position: absolute; left: 20px; top: 0; bottom: 0; width: 2px; background: #f9a8d4; }
+        @media (min-width: 768px) { .timeline-line { left: 50%; } }
+    </style>
+</head>
+<body class="bg-pink-50 text-gray-800">
+
+    <header class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0 grid grid-cols-3 md:grid-cols-4 gap-1 opacity-40">
+            <img src="img/inicio/inicio1.png" class="w-full h-full object-cover">
+            <img src="img/inicio/inicio2.png" class="w-full h-full object-cover">
+            <img src="img/inicio/inicio3.png" class="w-full h-full object-cover">
+            <img src="img/inicio/inicio4.png" class="w-full h-full object-cover hidden md:block">
+            <img src="img/inicio/inicio5.png" class="w-full h-full object-cover">
+            <img src="img/inicio/inicio6.png" class="w-full h-full object-cover">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-pink-50/80 to-pink-50"></div>
+        
+        <div class="relative z-10 text-center px-6 animate__animated animate__zoomIn">
+            <div class="w-40 h-40 mx-auto mb-6 rounded-full border-8 border-white shadow-2xl overflow-hidden">
+                <img src="img/inicio/principal.png" alt="Krysthen" class="w-full h-full object-cover">
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold text-pink-600 font-cursive mb-2">Para Krysthen Kmyla</h1>
+            <p class="text-lg text-gray-600 uppercase tracking-[0.2em]">Con amor, Santi</p>
+            <div class="mt-10 animate__bounce animate__infinite">
+                <span class="text-pink-400 text-3xl">↓</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="max-w-3xl mx-auto px-6 py-16 text-center">
+        <div class="glass p-8 rounded-3xl shadow-xl">
+            <h2 class="text-2xl font-semibold text-pink-500 mb-4">Feliz Día de la Mujer, mi vida 🌸</h2>
+            <p class="leading-relaxed mb-6 italic text-gray-700">
+                "Eres una mujer increíble. Admiro tu inteligencia, tu seguridad y esa forma única de enfrentar la vida. 
+                Tu sonrisa, tu cabello, tu paradito de garza y ese caminado de modelo... todo en ti es hermoso. 
+                Gracias por permitirme ser parte de tu camino."
+            </p>
+            <audio controls class="w-full h-10 rounded-lg shadow-inner">
+                <source src="audio/inicio/audio_principal.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </section>
+
+    <main class="max-w-5xl mx-auto px-6 pb-24 relative">
+        <div class="timeline-line hidden md:block"></div>
+
+        <div class="mb-24 relative animate__animated animate__fadeInUp">
+            <div class="md:flex items-center justify-between">
+                <div class="md:w-5/12">
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border-b-4 border-pink-400">
+                        <span class="text-pink-400 font-bold text-sm uppercase tracking-widest">Etapa I: El Inicio</span>
+                        <h3 class="text-3xl font-bold text-gray-800 mt-2 mb-4">Donde te encontré</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                            <b>Septiembre - Octubre 2024:</b> El mes donde te conocí y decidí prestar mi atención a quien me daría experiencias únicas. 
+                            <br><br>
+                            <b>Noviembre - Diciembre:</b> Mi diciembre fue feliz por el simple hecho de que estabas tú. La natilla y las reuniones familiares tenían un color distinto. 
+                            <br><br>
+                            <b>Enero - Febrero 2025:</b> Aprendí a quererte en la distancia. Ese 19 de enero en San Sebastián, conociendo a tu familia, fue una bendición de Dios. Me hiciste sentir parte de los tuyos.
+                        </p>
+                        <audio controls class="w-full h-8 opacity-70 mb-4"><source src="audio/etapa1/audio.mp3" type="audio/mpeg"></audio>
+                    </div>
+                </div>
+                <div class="md:w-6/12 mt-6 md:mt-0">
+                    <div class="grid grid-cols-2 gap-2">
+                        <img src="img/septiembre-octubre/img1.png" class="rounded-lg shadow h-40 w-full object-cover">
+                        <img src="img/noviembre-diciembre/img1.png" class="rounded-lg shadow h-40 w-full object-cover">
+                        <img src="img/enero-febrero/img1.png" class="rounded-lg shadow h-40 w-full object-cover col-span-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-24 relative animate__animated animate__fadeInUp">
+            <div class="md:flex flex-row-reverse items-center justify-between">
+                <div class="md:w-5/12">
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border-b-4 border-orange-300">
+                        <span class="text-orange-400 font-bold text-sm uppercase tracking-widest">Etapa II: El Hogar y la Tormenta</span>
+                        <h3 class="text-3xl font-bold text-gray-800 mt-2 mb-4">Sentirnos hogar</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                            <b>Marzo - Abril:</b> Despertar contigo era mi paz. Quizá fuimos inmaduros, pero nos dejábamos llevar por el amor. 
+                            <br><br>
+                            <b>Mayo - Agosto:</b> Apareció el miedo a la distancia. Tuvimos nuestro primer viaje (grabado en mi corazón), pero también llegó el primer vacío cuando decidiste tomar distancia. Fue una experiencia para crecer.
+                            <br><br>
+                            <b>Septiembre - Octubre:</b> A pesar de los días malos, le pedía a Dios que no te alejara. Me sentía vacío si no estabas, y cada día decidíamos seguir eligiéndonos.
+                        </p>
+                        <audio controls class="w-full h-8 opacity-70 mb-4"><source src="audio/etapa2/audio.mp3" type="audio/mpeg"></audio>
+                    </div>
+                </div>
+                <div class="md:w-6/12 mt-6 md:mt-0">
+                    <div class="grid grid-cols-2 gap-2">
+                        <img src="img/marzo-abril/img1.png" class="rounded-lg shadow h-40 w-full object-cover">
+                        <img src="img/mayo-junio/img1.png" class="rounded-lg shadow h-40 w-full object-cover">
+                        <img src="img/julio-agosto/img1.png" class="rounded-lg shadow h-40 w-full object-cover">
+                        <img src="img/septiembre-octubre-25/img1.png" class="rounded-lg shadow h-40 w-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-24 relative animate__animated animate__fadeInUp">
+            <div class="md:flex items-center justify-between">
+                <div class="md:w-5/12">
+                    <div class="bg-white p-6 rounded-2xl shadow-lg border-b-4 border-pink-600">
+                        <span class="text-pink-600 font-bold text-sm uppercase tracking-widest">Etapa III: Volver a Intentarlo</span>
+                        <h3 class="text-3xl font-bold text-gray-800 mt-2 mb-4">Siempre eres tú</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                            <b>Noviembre - Diciembre 2025:</b> La etapa más difícil. Me dolió soltarte, no dormía, extrañaba hasta los ladridos de la Molly. Aprendí que para respetarte, primero debía elegirme a mí.
+                            <br><br>
+                            <b>Enero - Marzo 2026:</b> Aprendí a estar sin ti, pero jamás a olvidarte. Decidí buscarte porque nada se compara con la tranquilidad que me das. Aquí estamos, con inseguridades, pero agradecido con Dios por permitirme compartir mi vida contigo.
+                        </p>
+                        <audio controls class="w-full h-8 opacity-70 mb-4"><source src="audio/etapa3/audio.mp3" type="audio/mpeg"></audio>
+                    </div>
+                </div>
+                <div class="md:w-6/12 mt-6 md:mt-0">
+                    <div class="grid grid-cols-1 gap-2">
+                        <img src="img/2026/img1.png" class="rounded-xl shadow-xl h-64 w-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white py-20 px-6 text-center border-t border-pink-100">
+        <h2 class="font-cursive text-4xl text-pink-600 mb-6">Te amo, Krysthen</h2>
+        <div class="max-w-2xl mx-auto space-y-4 text-gray-600">
+            <p>Guarda este mensaje para siempre. Cuando estés triste o feliz, estés conmigo o no, recuerda que eres hermosa, grande y segura.</p>
+            <p class="font-bold text-pink-500 italic">"Toma buenas decisiones, ama con todo... Te amu."</p>
+        </div>
+        <p class="mt-12 text-xs text-gray-300 uppercase tracking-widest">Para siempre — 2024-2026</p>
+    </footer>
+
+    <script>
+        // Animaciones simples al hacer scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate__fadeInUp');
+                    entry.target.style.opacity = 1;
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.animate__animated').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
